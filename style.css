@@ -25,6 +25,7 @@ body {
 
 body {
   /* line-height: 1.25; */
+  min-height: 100vh;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -62,12 +63,15 @@ body {
   font-size: var(--fs-14);
   font-weight: var(--fw-regular);
   padding: 1.75rem 1rem;
+  margin: auto;
   width: 23.4375rem;
+  display: grid;
+  place-content: center;
 
-  position: absolute;
+  /* position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
 }
 
 /********************************************/
