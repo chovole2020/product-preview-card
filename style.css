@@ -157,6 +157,10 @@ body {
   .product__content {
     padding: 2rem;
   }
+
+  .flex__group {
+    margin: 0.9375rem 0 1rem;
+  }
 }
 
 /*******************************************/
@@ -166,7 +170,7 @@ body {
   background-color: var(--clr-primary-400);
   color: var(--clr-neutral-100);
   cursor: pointer;
-  padding: 0.9rem 0 1rem;
+  padding: 0.9em 0 1em;
   border-radius: 0.5rem;
   border: 0;
   font-weight: var(--fw-bold);
