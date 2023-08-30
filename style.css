@@ -92,7 +92,6 @@ body {
 
 .product__category {
   font-size: 0.75rem;
-  margin-bottom: 0.375rem;
   letter-spacing: 5px;
   text-transform: uppercase;
   font-weight: var(--fw-regular);
@@ -103,7 +102,6 @@ body {
   font-family: var(--ff-bases);
   color: var(--clr-neutral-900);
   font-size: 2rem;
-  margin-bottom: 0.625rem;
   line-height: 1;
 }
 
@@ -158,6 +156,14 @@ body {
   }
   .product__content {
     padding: 2rem;
+  }
+
+  .product__category {
+    margin-bottom: 0.375rem;
+  }
+
+  .product__title {
+    margin-bottom: 0.625rem;
   }
 
   .flex__group {
