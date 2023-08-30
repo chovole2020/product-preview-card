@@ -183,6 +183,7 @@ body {
   border: 0;
   font-weight: var(--fw-bold);
   text-decoration: none;
+  height: 3rem;
 
   display: inline-flex;
   justify-content: center;
